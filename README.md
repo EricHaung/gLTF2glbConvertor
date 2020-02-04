@@ -10,9 +10,16 @@ GLTF結構雖然是常見的，較容易觀察模型架構的檔案，但由於�
 1. 宣告參考素材之容量以及讀取位置。
 2. 補上缺乏之標籤。
 
-再將參考素材放置於JSON後即完成。<br>
+補上GLB標頭後，再將參考素材依照GLB之格式拼於JSON後即完成。<br>
 <br>
 ### 相關說明：<br>
 * GLTF：是一種由Khronos組織開發之模型資料格式，主要設計目的為降低模型大小，可彈性擴充，方便儲存以及傳輸，能夠使用WebGL/OpenGL解析，被大量用於AR領域。[詳細說明](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0)<br>
 
 * GLB：是GLTF的另一種儲存型式，差別在於將所有GLTF之檔案組合成一個單一的二進位檔案，方便傳輸以及儲存，GLTF和GLB可以互相轉換。[詳細說明](https://wiki.fileformat.com/3d/glb/)<br>
+<br>
+
+![GLTF結構圖](https://github.com/EricHaung/gLTF2glbConvertor/blob/master/Image/2017-gltf-20-launch-2.jpg)
+GLTF結構圖<br><br><br>
+
+![GLB結構圖](https://github.com/EricHaung/gLTF2glbConvertor/blob/master/Image/glb2.png)
+GLB結構圖<br>
